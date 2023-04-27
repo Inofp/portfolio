@@ -1,0 +1,137 @@
+.about {
+    background-image: url(../../public/cat.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #090909;
+    background-attachment: fixed;
+
+    width: 100%;
+    min-height: 700px;
+    color: #fdfdfd;
+
+
+}
+
+.about__wrapper {
+    width: 45%;
+    min-height: 700px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 5vh;
+
+    padding-bottom: 5vh;
+}
+
+.about__title {
+    margin-top: 5vh;
+
+}
+
+.about__title__text {
+    width: 70%;
+}
+
+.title__line {
+    border-top: 3px solid #32a1ce;
+    position: relative;
+    display: inline;
+    width: 200px;
+}
+
+
+.about__theme {
+    font-weight: 600;
+    font-size: 45px;
+    margin: 0 0 5px;
+    line-height: 75px;
+}
+
+.contacts__arrow {
+    margin: 2vh;
+    position: relative;
+    top: -2px;
+}
+
+
+
+.contacts__item {
+    padding-bottom: 7px;
+
+}
+
+.about__uni {
+    color: #b8b3b3;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.about__course {
+    padding-bottom: 5px;
+}
+
+.about__uni {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.about__course {
+
+    position: relative;
+
+    >a::after {
+        content: "";
+        position: absolute;
+        width: 0%;
+        height: 1.5px;
+        background: rgb(91, 230, 78);
+        left: 0;
+        bottom: 0;
+        transition: 0.2s;
+        transition: scale(0);
+        transform-origin: left;
+    }
+
+    a:hover:after,
+    a:focus:after {
+        width: 100%;
+        /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+    }
+
+
+}
+
+.about__theme::after {
+    content: "";
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(255, 1, 1);
+
+    transform: translateX(-100%);
+    animation-name: line-anim;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes line-anim {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+.about__theme {
+    position: relative;
+}

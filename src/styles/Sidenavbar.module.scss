@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,200;1,400&display=swap');
+
+
+.side__container {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    min-height: 52px;
+    font-size: 1.3em;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(130,130,136,1) 100%);
+
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    position: relative;
+    
+}
+
+.side__title {
+    display: flex;
+    margin-top: 8px;
+
+    >h3 {
+        position: absolute;
+        top: 8px;
+        left: 8px;
+        font-family: 'Chivo Mono', monospace;
+        font-weight: 300;
+    }
+    
+}
+
+.side__item {
+    display: flex;
+    padding: 10px;
+
+    >h6 {
+        padding-left: 25px;
+
+    }
+}
+
+.side__icon {
+    stroke: red;
+}
+
+.ham {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+}
