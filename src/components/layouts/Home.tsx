@@ -4,6 +4,7 @@ import Image from 'next/image'
 import MyButton from './../UI/MyButton';
 import userData from "../../constants/data";
 import Typed from 'typed.js';
+import Link from 'next/link';
 
 
 const Home = () => {
@@ -29,7 +30,7 @@ const Home = () => {
         <div className={styles.Home__img}>
         <Image src="/ya.jpg" alt='my photo' fill sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
-              33vw" placeholder='blur'/>
+              33vw" priority/>
         </div>
         <div className={styles.Home__text}>
           <h1> {userData.sayHello} { userData.name }</h1>
@@ -38,7 +39,7 @@ const Home = () => {
           </div>
           <span className={styles.Home__text__span}>{ userData.about.title }</span>
           <br/><br/>
-          <MyButton><a className={styles.btnIn__text} href='https://inofp.github.io/cv/' target="_blank">CV Review &nbsp;<Image src="/st.png" alt='my photo' width={17} height={17} /></a></MyButton>
+          <MyButton href='https://inofp.github.io/cv/' target="_blank">CV Review &nbsp;<Image src="/st.png" alt='my photo' width={17} height={17} /></MyButton>
         </div>
       </div>
 
