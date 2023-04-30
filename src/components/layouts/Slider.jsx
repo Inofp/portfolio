@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide, useSwiper } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
 import userData from '@/constants/data';
 import Image from 'next/image';
-import ActiveContext from './../../context/index';
+import { ActiveContext } from "@/context";
 import QuoteBlock from './QuoteBlock';
 
 

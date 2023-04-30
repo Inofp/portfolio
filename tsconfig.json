@@ -18,6 +18,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/layouts/Swiper.jsx", "src/components/layouts/Slider.jsx", "src/components/layouts/Skills.jsx", "src/components/layouts/SideNavBar.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/layouts/Swiper.jsx", "src/components/layouts/Slider.jsx", "src/components/layouts/Skills.jsx", "src/components/layouts/SideNavBar.jsx", "src/components/layouts/Header.jsx"],
   "exclude": ["node_modules"]
 }

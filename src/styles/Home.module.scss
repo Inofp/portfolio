@@ -9,30 +9,61 @@
 }
 
 .Home__img {
-    width: 50%;
-    display: flex;
-    justify-content: center;
+    width: 420px;
+    height: 390px;
+    
+    border-radius: 35px;
+    position: relative;
 }
 
 .Home__text {
-    width: 50%;
+    width: 100%;
+    max-width: 700px;
 }
 
 .Home__form {
     display: flex;
-    align-items: center;
+    justify-content: space-around;
+
+    min-height: 400px;
+
+
+
     margin-top: 4rem;
     font-family: 'Montserrat', sans-serif;
     line-height:1.4;
+    
 }
 
+@media (max-width: 1080px) { 
+    .Home__form {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .Home__img {
+       width: 360px;
+       height: 330px;
+    }
+    
+
+    .Home__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+ }
+
 .btnIn__text {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: bold;
     font-family: 'Arimo', sans-serif;
     color: rgb(0, 0, 0);
     text-transform: uppercase;
-    letter-spacing: 2px;
+
     position: relative;
     z-index: 1;
 }

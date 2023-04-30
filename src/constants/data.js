@@ -5,6 +5,8 @@ const userData = {
   email: "ari_khvalko@mail.ru",
   phone: "+375298419695",
   telegram: "@arimafp",
+  sayHello: "Hi, I'm",
+  sayPrivet: "Привет, меня зовут",
   projects: [
     {
       title: "Tailwind Master Kit",
@@ -55,7 +57,7 @@ const userData = {
       'It defines the appearance of the page.',
       'Allows you to store and manage data in a structured format.',
       'It allows you to save a history of changes and manage development branches.',
-      'Simplifies and speeds up the CSS development process, allowing developers to write more readable and maintainable code.',
+      'Simplifies and speeds up the CSS development process.',
       'It defines the structure and content of the page.',
       'Adds interactivity to web pages, including animations, dynamic elements, and more.',
 
