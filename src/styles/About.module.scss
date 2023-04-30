@@ -1,6 +1,6 @@
 .about {
     background-image: url(../../public/cat.png);
-    background-position: top;
+    background-position:top;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #090909;
@@ -14,7 +14,7 @@
 }
 
 .about__wrapper {
-    width: 45%;
+    width: 85%;
     min-height: 700px;
 
     display: flex;
@@ -27,11 +27,11 @@
 
 .about__title {
     margin-top: 5vh;
-
+    width: 100%;
 }
 
 .about__title__text {
-    width: 70%;
+    max-width: 400px;
 }
 
 .title__line {
@@ -110,7 +110,7 @@
     align-items: center;
     top: 0;
     bottom: 0;
-    width: 100%;
+    width: 50%;
     height: 1px;
     background-color: rgb(255, 1, 1);
 
@@ -135,3 +135,18 @@
 .about__theme {
     position: relative;
 }
+
+@media (max-width: 1080px) {
+    .about__theme::after {
+        width: 90%;
+    }
+}
+
+@media (max-width: 436px) {
+
+    .about {
+        background-position:right;
+    }
+}
+
+

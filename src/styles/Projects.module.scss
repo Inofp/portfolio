@@ -98,3 +98,19 @@
         bottom: 5%;
     }
 }
+
+@media (max-width: 550px) {
+
+    .project__image {
+        width: 340px;
+        height: 300px;
+    }
+
+    .portfolio {
+        position: absolute;
+        left: 22%;
+        bottom: 5%;
+    }
+    
+}
+

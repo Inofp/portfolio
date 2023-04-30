@@ -33,7 +33,7 @@ const userData = {
   },
 
   slider: {
-    img: ['/js.svg', 'react.svg', '/next.svg', '/ts.svg', '/tw.svg', '/css.svg', '/sql.svg', '/git.svg', '/sass.svg', '/html.svg'],
+    img: ['react.svg', '/next.svg', '/ts.svg', '/tw.svg', '/css.svg', '/sql.svg', '/git.svg', '/sass.svg', '/html.svg','/js.svg',],
     title: ['React', 'NextJs', 'TypeScript', 'Tailwind', 'CSS', 'MySQL', 'Git', 'SASS', 'HTML', 'JavaScript'],
     descriptionMain: [
       'React is a JavaScript library for building UI interfaces.',

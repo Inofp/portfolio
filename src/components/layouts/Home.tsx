@@ -34,7 +34,7 @@ const Home = () => {
         </div>
         <div className={styles.Home__text}>
           <h1> {userData.sayHello} { userData.name }</h1>
-          <div className='flex'>
+          <div className='flex max-[436px]:text-base pb-1'>
             <h1 className='pr-2 text-gray-800'>Web</h1> <h1 ref={el} className='text-gray-600 border-b-5'/>
           </div>
           <span className={styles.Home__text__span}>{ userData.about.title }</span>

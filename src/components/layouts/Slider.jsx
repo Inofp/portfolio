@@ -42,19 +42,27 @@ export default function MySwiper() {
   
 
   return (
-    <div className="max-w-[560px] flex-column items-center justify-center mx-20">
-      <div className="h-1/4 flex items-center justify-center">
+    <div className="max-w-[560px]  flex-column items-center  justify-center lg:mx-20">
+      <div className="h-1/4  max-[560px]:max-w-[366px] max-[736px]:max-w-[400px]">
         <Swiper
-          spaceBetween={30}
           slidesPerView={3}
-          // autoplay={{ delay: 7000 }}
-          // loop={false}
-          // speed={2000}
+          autoplay={{ delay: 7000 }}
+          loop={false}
+          speed={2000}
           navigation
           pagination={{ clickable: true }}
           onSlideChange={handleSlideChange}
           grabCursor={true}
           ref={swiperRef}
+          breakpoints={{320: {slidesPerView: 2}, 480: {
+            slidesPerView: 1
+          },
+          640: {
+            slidesPerView: 2
+            }
+          }}
+          centeredSlides={true}
+          
           
         >
 
