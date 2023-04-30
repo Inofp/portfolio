@@ -39,7 +39,7 @@ const Home = () => {
           </div>
           <span className={styles.Home__text__span}>{ userData.about.title }</span>
           <br/><br/>
-          <MyButton href='https://inofp.github.io/cv/' target="_blank">CV Review123123 &nbsp;<Image src="/st.png" alt='my photo' width={17} height={17} /></MyButton>
+          <MyButton href='https://inofp.github.io/cv/' target="_blank">CV Reviewzxczxcz &nbsp;<Image src="/st.png" alt='my photo' width={17} height={17} /></MyButton>
         </div>
       </div>
 
