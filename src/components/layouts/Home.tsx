@@ -38,7 +38,7 @@ const Home = () => {
           </div>
           <span className={styles.Home__text__span}>{ userData.about.title }</span>
           <br/><br/>
-          <MyButton><p className={styles.btnIn__text}>Download CV &nbsp;<Image src="/st.png" alt='my photo' width={17} height={17} /></p></MyButton>
+          <MyButton><a className={styles.btnIn__text} href='https://inofp.github.io/cv/' target="_blank">CV Review &nbsp;<Image src="/st.png" alt='my photo' width={17} height={17} /></a></MyButton>
         </div>
       </div>
 
