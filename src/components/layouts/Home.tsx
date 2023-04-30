@@ -29,7 +29,7 @@ const Home = () => {
         <div className={styles.Home__img}>
         <Image src="/ya.jpg" alt='my photo' fill sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
-              33vw" />
+              33vw" placeholder='blur'/>
         </div>
         <div className={styles.Home__text}>
           <h1> {userData.sayHello} { userData.name }</h1>
