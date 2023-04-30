@@ -25,7 +25,8 @@
     display: flex;
     justify-content: space-around;
 
-    min-height: 400px;
+    min-height: 100%;
+    
 
 
 
@@ -78,8 +79,8 @@
             font-size: 1.5em;
         }
     }
-
-    .Home__text__span {
-        
+    .Home__form {
+        min-height: 340px;
     }
+    
 }
