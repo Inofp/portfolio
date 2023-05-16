@@ -12,7 +12,7 @@ const Projects = () => {
 
                     <div className='mr-8'><div className='w-1/2 max-lg:pb-8 min-w-[366px]'>
                         <h1>KFC stock</h1>
-                        <p className='py-2'>Site where u can find analog for medications.</p>
+                        <p className='py-2'>Still in procces</p>
                         <div className={styles.project__image}>
                             <Image src="/Screenshot_2.png" alt='project' fill sizes="(max-width: 768px) 100vw,
                                 (max-width: 1200px) 50vw,
