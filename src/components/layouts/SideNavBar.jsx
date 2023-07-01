@@ -5,7 +5,7 @@ import { TbBrandNextjs } from "react-icons/tb";
 import { GrReactjs } from "react-icons/gr";
 import { SiTailwindcss } from "react-icons/si";
 import { DiJavascript1, DiSass } from "react-icons/di";
-import { SiHtml5, SiCss3, SiMysql, SiTypescript } from "react-icons/si";
+import { SiHtml5, SiCss3, SiMysql, SiTypescript, SiMongodb } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 import { ActiveContext } from "@/context";
 
@@ -58,11 +58,15 @@ const SideNavBar = () => {
                     <SiHtml5 className={`text-2xl group-hover:text-white ${indexActive == 8 && 'text-white'}`} />
                     <h6 className={`px-7 text-base text-gray-800 group-hover:text-white font-semibold ${indexActive == 8 && 'text-white'}`}>HTML</h6>
                 </div>
-                <div onClick={() => handleItemClick(9)}
+                <div onClick={() => handleItemClick(9)} className={`flex mb-2 justify-start items-center gap-4 pl-5 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto ${indexActive == 9 ? 'bg-gray-900' : 'hover:bg-gray-900'}`}>
+                    <SiMongodb className={`text-2xl group-hover:text-white ${indexActive == 9 && 'text-white'}`} />
+                    <h6 className={`px-7 text-base text-gray-800 group-hover:text-white font-semibold ${indexActive == 9 && 'text-white'}`}>MongoDB</h6>
+                </div>
+                <div onClick={() => handleItemClick(10)}
                     className={`flex mb-8 justify-start items-center gap-4 pl-5 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto
-                        ${indexActive == 9 ? 'bg-gray-900' : 'hover:bg-gray-900'}`}>
-                    <DiJavascript1 className={`text-2xl group-hover:text-white ${indexActive == 9 && 'text-white'}`} />
-                    <h6 className={`px-7 text-base text-gray-800 group-hover:text-white font-semibold ${indexActive == 9 && 'text-white'}`}>
+                        ${indexActive == 10 ? 'bg-gray-900' : 'hover:bg-gray-900'}`}>
+                    <DiJavascript1 className={`text-2xl group-hover:text-white ${indexActive == 10 && 'text-white'}`} />
+                    <h6 className={`px-7 text-base text-gray-800 group-hover:text-white font-semibold ${indexActive == 10 && 'text-white'}`}>
                         JavaScript
                     </h6>
                 </div>

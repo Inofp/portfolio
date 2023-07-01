@@ -19,7 +19,7 @@ const QuoteBlock = () => {
 
   return (
     <div>
-      {!likedVisible && <h3>Code example (react + next.js):</h3>}
+      {!likedVisible && <h3>Small code example:</h3>}
       <div className="quote-block">
         <p className="quote-text">{currentQuote.text}</p>
         <p className="quote-author">- {currentQuote.author}</p>

@@ -33,8 +33,8 @@ const userData = {
   },
 
   slider: {
-    img: ['react.svg', '/next.svg', '/ts.svg', '/tw.svg', '/css.svg', '/sql.svg', '/git.svg', '/sass.svg', '/html.svg','/js.svg',],
-    title: ['React', 'NextJs', 'TypeScript', 'Tailwind', 'CSS', 'MySQL', 'Git', 'SASS', 'HTML', 'JavaScript'],
+    img: ['react.svg', '/next.svg', '/ts.svg', '/tw.svg', '/css.svg', '/sql.svg', '/git.svg', '/sass.svg', '/html.svg','/mongo.svg','/js.svg'],
+    title: ['React', 'NextJs', 'TypeScript', 'Tailwind', 'CSS', 'MySQL', 'Git', 'SASS', 'HTML', 'MongoDB','JavaScript'],
     descriptionMain: [
       'React is a JavaScript library for building UI interfaces.',
       'Next.js is a JavaScript web application development framework.',
@@ -45,6 +45,7 @@ const userData = {
       'Git is a version control system that is used to manage changes to the source code of applications.',
       'SASS is a CSS preprocessor that adds a lot of features and functionality not found in regular CSS.',
       'HTML is a markup language that is used to create web pages.',
+      'MongoDB is a NoSQL database that stores data in flexible, JSON-like documents.',
       'JavaScript is a programming language that is used to create interactive and dynamic web pages.',
 
 
@@ -53,14 +54,14 @@ const userData = {
       'Uses a component approach and allows to develop scalable applications.',
       'Allows to create more productive web applications due to server rendering, which has a positive impact on its SEO promotion.',
       'Designed for building large and complex applications where code typing, readability and maintainability are important factors.',
-      'It offers a set of predefined classes that can be applied to HTML elements.',
+      'Musthave for style dev',
       'It defines the appearance of the page.',
       'Allows you to store and manage data in a structured format.',
       'It allows you to save a history of changes and manage development branches.',
-      'Simplifies and speeds up the CSS development process.',
-      'It defines the structure and content of the page.',
-      'Adds interactivity to web pages, including animations, dynamic elements, and more.',
-
+      'Simplifies and speeds up the CSS development process. It is primarily used for creating complex designs that Tailwind cannot handle.',
+      'Website markup 🤤',
+      'More popular then mysql atm, used in kfc stock project',
+      'Commonly used for creating simple files, such as API files, that dont require complex design.',
     ],
 
 
@@ -74,8 +75,8 @@ const userData = {
       'Git - это система контроля версий, которая используется для управления изменениями в исходном коде приложений.',
       'SASS - это препроцессор CSS, который добавляет множество функций и возможностей, которых нет в обычном CSS.',
       'HTML - это язык разметки, который используется для создания веб-страниц.',
-      'JavaScript - это язык программирования, который используется для создания интерактивных и динамических веб-страниц.',
 
+      'JavaScript - это язык программирования, который используется для создания интерактивных и динамических веб-страниц.',
     ],
 
     descriptionSecondaryRu: [
