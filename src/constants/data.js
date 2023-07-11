@@ -28,7 +28,7 @@ const userData = {
     title:
       "web developer and UI/UX designer with a passion for creating beautiful, functional, and user-centered digital experiences.",
     description: [
-      `Beginner front-end developer, enjoying creating beautiful sites with good UX design, currently writing in react / next.js and looking for team / project to realize my experience and level up`,
+      `Web developer, enjoying creating beautiful sites with good UX design, currently writing in react / next.js and ready to realize your project ideas`,
     ],
   },
 
