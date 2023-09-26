@@ -12,7 +12,11 @@ const About: FC = () => {
                 <div className={styles.about__title}>
                     <h1 className={styles.about__themeOff}>About me</h1> 
                     <div className={styles.title__line}></div>
-                    <p className={styles.about__title__text}>{userData.about.description}</p>
+                    <p className={styles.about__title__text}>
+                        Web developer, enjoying creating beautiful sites with good UX design.
+                        <p className='py-1'>Current tech stack: Next.js, React, Typescript, Tailwind, MongoDB, MySql, Prisma.</p>
+                        <p>Ready to realize your project ideas!</p>
+                    </p>
                 </div>
 
                 <div className={styles.about__education}>

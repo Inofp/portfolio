@@ -16,7 +16,7 @@ const Layout: FC<PropsWithChildren<IMeta>> = ({ children, title, description }) 
     }}>
       <Meta title={title} description={description}>
         <Header />
-        {children}
+        <main>{children}</main>
       </Meta>
 
     </ActiveContext.Provider>
