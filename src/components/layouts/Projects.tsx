@@ -36,7 +36,7 @@ const Projects = () => {
                         description='Find analog for medications'
                         imageUrl="/findan.png"
                         techStack={[0, 8, 3, 9]}
-                        deployUrl="https://find-analog.vercel.app/"
+                        deployUrl="https://inofp.github.io/-layout3/"
                     />
 
                 </div>
