@@ -50,9 +50,6 @@ const Header = () => {
           <Link href="/about" className={pathname == "/about" ? styles.active : ""}>
             <span className={styles.header__text}>About</span>
           </Link>
-          <Link href="/skills" className={pathname == "/skills" ? styles.active : ""}>
-            <span className={styles.header__text}>Skills</span>
-          </Link>
           <Link href="/projects" className={pathname == "/projects" ? styles.active : ""}>
             <span className={styles.header__text}>Projects</span>
           </Link>
@@ -77,13 +74,6 @@ const Header = () => {
             <li className='p-4 ml-5 border-b border-gray-600'>
               <Link href="/about" className={pathname == "/about" ? styles.active : ""}>
                 <span className={styles.header__text}>About</span>
-              </Link>
-            </li>
-          </div>
-          <div className={styles.navitem}>
-            <li className='p-4 ml-5 border-b border-gray-600'>
-              <Link href="/skills" className={pathname == "/skills" ? styles.active : ""}>
-                <span className={styles.header__text}>Skills</span>
               </Link>
             </li>
           </div>
@@ -121,7 +111,7 @@ const Header = () => {
         </div>
 
 
-        <a href="#" className="pl-5">
+        <a href="https://www.instagram.com/arimafp/" target="_blank" className="pl-5">
           <Image src="/Instagram_logo_2016.svg.png" alt='inst' width={25} height={25} />
         </a>
         <a href="#">

@@ -1,7 +1,7 @@
 import { FC } from 'react'
 import styles from '@/styles/About.module.scss'
 import userData from "../../constants/data";
-import Image from 'next/image'
+
 
 
 const About: FC = () => {
