@@ -37,7 +37,7 @@ const Home = () => {
         </div>
         <span className={styles.Home__text__span}>{userData.about.title}</span>
         <br /><br />
-        <MyButton href='https://cv-next-eight.vercel.app/' target="_blank">CV Review &nbsp;<Image src="/st.png" alt='my photo' width={17} height={17} /></MyButton>
+        <MyButton href='https://cv-poland.vercel.app/' target="_blank">CV Review &nbsp;<Image src="/st.png" alt='my photo' width={17} height={17} /></MyButton>
       </div>
     </div>
   );
